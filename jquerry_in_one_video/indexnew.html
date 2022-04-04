@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>jQuery </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Heading</button>
+    <button style="margin:55px;" type="button" class="btn btn-info btn-lg" data-toggle="modal"
+      data-target="#myModal2">Sub Heading</button>
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">Form</button>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal1" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <form id="myForm">
+            <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+            <h4 class="modal-title">Heading</h4>
+          </div>
+          <div class="modal-body">
+            <p>Write heading .</p>
+            <textarea class="form-control" id="newGoal" rows="1"></textarea>
+          </div>
+          <div class="modal-footer">
+            <button id="save" type="submit"  class="btn btn-primary" data-dismiss="modal">Save</button>
+            <!-- <input type="button" onclick="myFunction()" value="Reset form"> -->
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+          <!-- <script>
+            function myFunction() {
+              document.getElementById("myForm").reset();
+            }
+            </script> -->
+        </div>
+      </form>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <form id="myForm2">
+          <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+          <h1 class="modal-title">Sub Heading</h1>
+        </div>
+        <div class="modal-body">
+          <h4>Heading</h4>
+          <select class="form-select" id="div" aria-label="Default select example">
+            <option value="">-- Please select --</option>
+            <!-- <option  selected>select heading</option> -->
+          </select>
+          <h4>Sub heading</h4>
+          <textarea class="form-control" id="newGoals" rows="1"></textarea>
+        </div>
+        <div class="modal-footer">
+          <button id="saves" type="submit" class="btn btn-primary" data-dismiss="modal">Save</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </form>
+    </div>
+  </div>
+
+  </div>
+
+    <div class="modal-body">
+    <div class="modal fade" id="myModal3" role="dialog">
+      <form id="myForm7">
+      <div class="modal-dialog modal-lg modal-hg">
+        <div class="modal-body">
+         
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+              <h4 class="modal-title">Sub -Sub Heading</h4>
+            </div>
+            <div class="modal-body">
+              <h4>Heading</h4>
+              <select class="form-select" id="div-f" aria-label="Default select example">
+                <option selected>select heading</option>
+              </select>
+              <h4>Sub heading</h4>
+              <select class="form-select" id="div2" aria-label="Default select example">
+                <option selected>select heading</option>
+              </select>
+
+
+              </head>
+
+              <body>
+              
+                <h4>input type</h4>
+                <select class="form-select" name="serviceChoice" id="serviceChoice">
+                  <option selected> </option>
+                  <option value="0">checkbox</option>
+                  <option value="1">color</option>
+                  <option value="2">date</option>
+                  <option value="3">datetime-local</option>
+                  <option value="4">email</option>
+                  <option value="5">file</option>
+                  <!-- <option value="6">hidden</option> -->
+                  <option value="7">image</option>
+                  <option value="8">month</option>
+                  <option value="9">number</option>
+                  <option value="10">password</option>
+                  <option value="11">radio</option>
+                  <!-- <option value="12">range</option> -->
+                  <option value="13">reset</option>
+                  <option value="14">search</option>
+                  <option value="15">submit</option>
+                  <option value="16">tel</option>
+                  <option value="17">time</option>
+                  <option value="18">url</option>
+                  <option value="19">week</option>
+                  <option value="20">button</option>
+                  <option value="21">range</option>
+                  <option value="22">select</option>
+                </select>
+
+                <h4>Label</h4>
+                <textarea class="form-control" id="newGoals-label" rows="1"></textarea>
+
+                <h4>Class</h4>
+                <textarea class="form-control" id="newGoals-class" rows="1"></textarea>
+
+                <h4>Value</h4>
+                <textarea class="form-control" id="newGoals-value" rows="1"></textarea>
+
+                <h4>Place Holder</h4>
+                <textarea class="form-control" id="newGoals-placeholder" rows="1"></textarea>
+
+                <h4>Id</h4>
+                <textarea class="form-control" id="newGoals-id" rows="1"></textarea>
+
+                <h4>Name</h4>
+                <textarea class="form-control" id="newGoals-name" rows="1"></textarea>
+
+                <h4>options</h4>
+                <textarea class="form-control" id="newGoals-options" rows="1"></textarea>
+            </div>
+            <div class="modal-footer">
+              <div class="right">
+                <div class="form-check ">        <option value="firstEl">First Element</option>
+                  <option value="secondEl">Second Element</option>
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label " for="flexCheckDefault">
+                    required
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                  <label class="form-check-label" for="flexCheckChecked">
+                    read only
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                  <label class="form-check-label" for="flexCheckChecked">
+                    disabled selected
+                  </label>
+                </div>
+
+              </div>
+              <button id="btn1" type="submit" class="btn btn-primary" data-dismiss="modal">Save</button>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+
+            </div>
+          </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+<main> </main>
+</body>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="js/model.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+</script>
+
+</html>
